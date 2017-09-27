@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_2"
+    tools:context="com.example.kairos.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="@color/orange2"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:padding="5dp"
+        android:text="Get Started!"
+        android:textColor="@color/white"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+</RelativeLayout>
